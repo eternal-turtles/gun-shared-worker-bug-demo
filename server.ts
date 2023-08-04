@@ -5,8 +5,4 @@ Deno.serve((req: Request) => {
     fsRoot: "src",
     urlRoot: ""
   });
-
-  return new Response("404: Not Found", {
-    status: 404,
-  });
 });
